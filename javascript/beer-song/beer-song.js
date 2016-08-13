@@ -7,7 +7,7 @@ BeerSong.prototype.verse = function(n) {
     return n > 0 ? outputOneMore : outputNoMore
 }
 
-BeerSong.protype.sing = function(n1, n2) {
+BeerSong.prototype.sing = function(n1, n2) {
 
 
 }
