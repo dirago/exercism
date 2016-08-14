@@ -4,7 +4,7 @@ var Isogram = function(str) {
 
 Isogram.prototype.isIsogram = function() {
     str = this.str.toLowerCase();
-    regex = /[a-zÀÁÂÃÄÅàáâãäåÒÓÔÕÖØòóôõöøÈÉÊËèéêëÇçÌÍÎÏìíîïÙÚÛÜùúûüÿÑñ]/gi
+    regex = /[a-zàáâãäåòóôõöøèéêëçìíîïùúûüÿñ]/gi
     obj = {};
     for (var i = 0; i < str.length; i++) {
         if (obj.hasOwnProperty(str[i]) && str[i].match(regex)) {
