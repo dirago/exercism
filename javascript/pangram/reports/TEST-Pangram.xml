@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Pangram()" errors="0" tests="9" failures="0" time="0.009" timestamp="2016-08-15T13:41:43">
+  <testcase classname="Pangram()" name="empty sentence" time="0.003"></testcase>
+  <testcase classname="Pangram()" name="pangram with only lower case" time="0.002"></testcase>
+  <testcase classname="Pangram()" name="missing character &amp;apos;x&amp;apos;" time="0.001"></testcase>
+  <testcase classname="Pangram()" name="another missing character &amp;apos;x&amp;apos;" time="0"></testcase>
+  <testcase classname="Pangram()" name="pangram with underscores" time="0"></testcase>
+  <testcase classname="Pangram()" name="pangram with numbers" time="0"></testcase>
+  <testcase classname="Pangram()" name="missing letters replaced by numbers" time="0.001"></testcase>
+  <testcase classname="Pangram()" name="pangram with mixed case and punctuation" time="0"></testcase>
+  <testcase classname="Pangram()" name="pangram with non-ascii characters" time="0"></testcase>
+</testsuite>
+</testsuites>
